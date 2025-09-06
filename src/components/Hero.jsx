@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from "react";
 import Nav from "./Nav";
 
+
+
 const slides = [
   {
     id: 1,
     title: "The Batman",
     text: "When a sadistic killer begins murdering key political figures in Gotham, Batman is forced to investigate the city’s hidden corruption and question his family’s involvement.",
-    img: "./public/slide/bg.jpg",
+    img: "../assets/slide/bg.jpg",
   },
   {
     id: 2,
