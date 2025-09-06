@@ -1,26 +1,48 @@
 import React, { useState, useEffect } from "react";
 import Nav from "./Nav";
 
-
-
 const slides = [
   {
     id: 1,
     title: "The Batman",
     text: "When a sadistic killer begins murdering key political figures in Gotham, Batman is forced to investigate the city’s hidden corruption and question his family’s involvement.",
     img: "/slide/bg.jpg",
+    mobileImg: "/movies/1.jpg",
   },
   {
     id: 2,
     title: "Second Slide",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    img: "https://picsum.photos/id/1015/1920/1080",
+    img: "/slide/bg2.jpg",
+    mobileImg: "/movies/1.jpg",
   },
   {
     id: 3,
     title: "Third Slide",
     text: "Praesent commodo cursus magna, vel scelerisque nisl consectetur.",
-    img: "https://picsum.photos/id/1019/1920/1080",
+    img: "/slide/bg3.jpg",
+    mobileImg: "/movies/1.jpg",
+  },
+  {
+    id: 4,
+    title: "Forth Slide",
+    text: "Praesent commodo cursus magna, vel scelerisque nisl consectetur.",
+    img: "/slide/bg4.jpg",
+    mobileImg: "/movies/1.jpg",
+  },
+  {
+    id: 5,
+    title: "Fifth Slide",
+    text: "Praesent commodo cursus magna, vel scelerisque nisl consectetur.",
+    img: "/slide/bg5.jpg",
+    mobileImg: "/movies/1.jpg",
+  },
+  {
+    id: 6,
+    title: "Sixth Slide",
+    text: "Praesent commodo cursus magna, vel scelerisque nisl consectetur.",
+    img: "/slide/bg6.jpg",
+    mobileImg: "/movies/1.jpg",
   },
 ];
 
@@ -76,15 +98,21 @@ const Hero = () => {
         style={{ transform: `translateX(-${current * 100}%)` }}
       >
         {extendedSlides.map((slide, index) => (
-          <div
-            key={index}
-            className="h-screen w-full flex-shrink-0 relative"
-          >
+          <div key={index} className="h-screen w-full flex-shrink-0 relative">
+            {/* Desktop Image */}
             <img
-              src={slide.img}
+              src={slide.img} // desktop photo
               alt={slide.title}
-              className="absolute inset-0 w-full h-full object-cover"
+              className="absolute inset-0 w-full h-full object-cover hidden sm:block"
             />
+
+            {/* Mobile Image */}
+            <img
+              src={slide.mobileImg} // mobile photo
+              alt={slide.title}
+              className="absolute inset-0 w-full h-full object-cover sm:hidden"
+            />
+
             {/* Dark overlay */}
             <div className="absolute inset-0 bg-black/40" />
 
