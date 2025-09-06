@@ -8,7 +8,7 @@ const slides = [
     id: 1,
     title: "The Batman",
     text: "When a sadistic killer begins murdering key political figures in Gotham, Batman is forced to investigate the city’s hidden corruption and question his family’s involvement.",
-    img: "../assets/slide/bg.jpg",
+    img: "/slide/bg.jpg",
   },
   {
     id: 2,
