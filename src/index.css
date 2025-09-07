@@ -1,7 +1,19 @@
 @import "tailwindcss";
 
-body,html{
-    margin: 0;
-    padding: 0;  
-    scroll-behavior: smooth; 
+body,
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track{
+background: #18181b;
+}
+::-webkit-scrollbar-thumb {
+  background: #d6d3d0;
+  border-radius: 10px;
 }

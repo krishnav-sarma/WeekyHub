@@ -85,7 +85,7 @@ const Nav = () => {
         </button>
         <button
           className="text-2xl hover:scale-110 transition-transform"
-          onClick={() => scrollToSection("categories")}
+          onClick={() => scrollToSection("request")}
         >
           Request Movie
         </button>

@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "./components/Hero";
 import Cardpage from "./pages/Cardpage";
 import Nav from "./components/Nav";
+import Requestpage from "./pages/Requestpage";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       </section>
 
       <section id="request">
+        <Requestpage/>
       </section>
     </div>
   );
