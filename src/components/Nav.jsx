@@ -35,7 +35,7 @@ const Nav = () => {
         </button>
         <button
           className="hover:text-gray-300 text-white"
-          onClick={() => scrollToSection("categories")}
+          onClick={() => scrollToSection("request")}
         >
           Request Movie
         </button>

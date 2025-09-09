@@ -3,6 +3,8 @@ import Hero from "./components/Hero";
 import Cardpage from "./pages/Cardpage";
 import Nav from "./components/Nav";
 import Requestpage from "./pages/Requestpage";
+import Footer from "./pages/Footer";
+import ProgressBar from "./components/ProgressBar"; // ✅ import it
 
 const App = () => {
   return (
@@ -10,18 +12,22 @@ const App = () => {
       {/* Navbar */}
       <Nav />
 
+      <ProgressBar />
+
       {/* Sections */}
       <section id="hero">
         <Hero />
       </section>
 
       <section id="movies">
-        <Cardpage />
+        <Cardpage/>
       </section>
 
       <section id="request">
-        <Requestpage/>
+        <Requestpage />
       </section>
+
+      <Footer />
     </div>
   );
 };

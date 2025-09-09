@@ -1,0 +1,28 @@
+.progress-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background: transparent;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.progress {
+  width: 100%;
+  height: 50%;
+  background: #d6d3d0;
+  transform-origin: left center;
+  animation: scaleProgress auto linear;
+  animation-timeline: scroll(root);
+}
+
+@keyframes scaleProgress {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
