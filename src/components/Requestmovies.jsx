@@ -79,7 +79,7 @@ const movies = [
 const Requestmovies = () => {
   return (
     <div className="p-4 max-w-screen mx-auto bg-[#18181b]  ">
-      <h1 className="text-[#d7d2cf] text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mt-10 ml-2">Requested Movies</h1>
+      <h1 className="text-[#d7d2cf] text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-f2 mt-10 ml-2">Requested Movies</h1>
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 mt-5.5 md:mt-10">
         {movies.map((movie, index) => (
           <div
@@ -95,7 +95,7 @@ const Requestmovies = () => {
 
             {/* Movie Name & Button */}
             <div className="p-4 flex flex-col flex-grow justify-between">
-              <h3 className="text-xl font-semibold text-white mb-4">
+              <h3 className="text-xl font-f2 text-white mb-4">
                 {movie.title}
               </h3>
               <a
