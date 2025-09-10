@@ -20,9 +20,9 @@ const Nav = () => {
       <h1 className="text-2xl font-Pixel  text-black bg-[#bed3d6]  p-1.5 rounded-2xl">WeekyHub</h1>
 
       {/* Desktop  */}
-      <nav className="space-x-6 hidden md:flex">
+      <nav className="space-x-6 hidden md:flex text-xl">
         <button
-          className="hover:text-gray-300 text-white"
+          className="hover:text-gray-300 text-white "
           onClick={() => scrollToSection("hero")}
         >
           Home
@@ -37,7 +37,7 @@ const Nav = () => {
           className="hover:text-gray-300 text-white"
           onClick={() => scrollToSection("request")}
         >
-          Request Movie
+          Request_Movie
         </button>
       </nav>
 
@@ -72,22 +72,22 @@ const Nav = () => {
         }`}
       >
         <button
-          className="text-2xl hover:scale-110 transition-transform"
+          className="text-4xl hover:scale-110 transition-transform font-Pixel "
           onClick={() => scrollToSection("hero")}
         >
           Home
         </button>
         <button
-          className="text-2xl hover:scale-110 transition-transform"
+          className="text-4xl hover:scale-110 transition-transform font-Pixel"
           onClick={() => scrollToSection("movies")}
         >
           Movies
         </button>
         <button
-          className="text-2xl hover:scale-110 transition-transform"
+          className="text-4xl hover:scale-110 transition-transform font-Pixel"
           onClick={() => scrollToSection("request")}
         >
-          Request Movie
+          Request_Movie
         </button>
       </div>
     </div>
