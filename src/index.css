@@ -1,4 +1,11 @@
+@font-face {
+  font-family: Pixel;
+  src: url("../public/others/BoldPixels.ttf");
+}
+
 @import "tailwindcss";
+
+
 
 body,
 html {
@@ -16,4 +23,8 @@ background: #18181b;
 ::-webkit-scrollbar-thumb {
   background: #d6d3d0;
   border-radius: 10px;
+}
+
+@theme{
+  --font-Pixel: Pixel;
 }

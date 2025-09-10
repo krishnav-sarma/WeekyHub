@@ -17,7 +17,7 @@ const Nav = () => {
   return (
     <div className="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-8 py-4 pointer-events-auto bg-transparent">
       {/* Logo */}
-      <h1 className="text-xl font-bold text-black bg-[#bed3d6]  p-1.5 rounded-2xl">WeekyHub</h1>
+      <h1 className="text-2xl font-Pixel  text-black bg-[#bed3d6]  p-1.5 rounded-2xl">WeekyHub</h1>
 
       {/* Desktop  */}
       <nav className="space-x-6 hidden md:flex">
