@@ -2,6 +2,10 @@
   font-family: Pixel;
   src: url("../public/others/BoldPixels.ttf");
 }
+@font-face {
+  font-family: F2;
+  src: url("../public/others/ClementePDai-Regular.ttf");
+}
 
 @import "tailwindcss";
 
@@ -27,4 +31,5 @@ background: #18181b;
 
 @theme{
   --font-Pixel: Pixel;
+  --font-f2: F2
 }
