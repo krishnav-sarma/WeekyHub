@@ -1,14 +1,17 @@
+'use client';
 import React from "react";
+import { ReactLenis, useLenis } from 'lenis/react'
 import Hero from "./components/Hero";
 import Cardpage from "./pages/Cardpage";
 import Nav from "./components/Nav";
 import Requestpage from "./pages/Requestpage";
 import Footer from "./pages/Footer";
-import ProgressBar from "./components/ProgressBar"; // ✅ import it
+import ProgressBar from "./components/ProgressBar"; 
 
 const App = () => {
   return (
-    <div className="relative">
+    <ReactLenis root>
+      <div className="relative">
       {/* Navbar */}
       <Nav />
 
@@ -29,6 +32,8 @@ const App = () => {
 
       <Footer />
     </div>
+    </ReactLenis>
+    
   );
 };
 

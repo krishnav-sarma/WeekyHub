@@ -72,19 +72,19 @@ const Nav = () => {
         }`}
       >
         <button
-          className="text-4xl hover:scale-110 transition-transform font-Pixel "
+          className="text-4xl hover:scale-110 transition-transform font-f2 "
           onClick={() => scrollToSection("hero")}
         >
           Home
         </button>
         <button
-          className="text-4xl hover:scale-110 transition-transform font-Pixel"
+          className="text-4xl hover:scale-110 transition-transform font-f2"
           onClick={() => scrollToSection("movies")}
         >
           Movies
         </button>
         <button
-          className="text-4xl hover:scale-110 transition-transform font-Pixel"
+          className="text-4xl hover:scale-110 transition-transform font-f2"
           onClick={() => scrollToSection("request")}
         >
           Request_Movie
