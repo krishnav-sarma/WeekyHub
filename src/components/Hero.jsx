@@ -4,10 +4,10 @@ import Nav from "./Nav";
 const slides = [
   {
     id: 1,
-    title: "Coolie",
-    text: "Deva, once living a quiet life, is shaken when his close friend dies under suspicious circumstances. Determined to uncover the truth, he infiltrates a powerful gang operating in the shadows. As he investigates, Deva becomes entangled in a dangerous web of crime, betrayal, and secrets from his own past, forcing him to confront powerful enemies while protecting the ones he loves.",
+    title: "F1",
+    text: "Sonny Hayes was the most promising phenom in the 1990s in FORMULA 1® until an accident on the track. Thirty years later, his former teammate Ruben Cervantes convinces him to come back and drive alongside hotshot rookie Joshua Pearce for one last chance to be the best in the world. Sonny’s past catches up with him, and he finds that the road to redemption is not something you can travel alone.",
     img: "/slide/bg.jpg",
-    mobileImg: "/movies/coolie.jpg",
+    mobileImg: "/slide/bg.jpg",
   },
   {
     id: 2,
@@ -18,10 +18,10 @@ const slides = [
   },
   {
     id: 3,
-    title: "Saiyaara",
-    text: "When a talented musician and a passionate writer fall for each other, burgeoning success and a devastating medical diagnosis threaten to pull them apart.",
-    img: "/slide/bg3.jpg",
-    mobileImg: "/movies/saiyaara.jpg",
+    title: "Nosferatu",
+    text: "Robert Eggers’ NOSFERATU is a gothic tale of obsession between a haunted young woman and the terrifying vampire infatuated with her, causing untold horror in its wake.",
+    img: "/slide/Nosferatu2.jpg",
+    mobileImg: "/movies/Nosferatu.jpg",
   },
   {
     id: 4,
@@ -114,19 +114,19 @@ const Hero = () => {
             />
 
             {/* Dark overlay */}
-            <div className="absolute inset-0 bg-black/40" />
+            <div className="absolute inset-0 bg-black/35" />
 
             {/* Text & Button */}
             <div className="absolute bottom-20 sm:bottom-20 ml-2 md:ml-10 text-left text-white max-w-[550px]">
-              <h2 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold mb-3 md:mb-4">
+              <h2 className="text-6xl sm:text-3xl md:text-5xl lg:text-6xl font-bold mb-3 md:mb-4 font-f2">
                 {slide.title}
               </h2>
-              <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-200 mb-4 md:mb-6">
+              <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-200 mb-4 md:mb-6 font-semibold ">
                 {slide.text}
               </p>
-              <button className="px-4 py-2 md:px-6 md:py-3 bg-white text-black rounded-lg shadow-lg hover:scale-105 transition-transform text-sm md:text-base">
+              {/* <button className="px-4 py-2 md:px-6 md:py-3 bg-white text-black rounded-lg shadow-lg hover:scale-105 transition-transform text-[15px] md:text-base font-f2 font-semibold">
                 Watch Now
-              </button>
+              </button> */}
             </div>
           </div>
         ))}
