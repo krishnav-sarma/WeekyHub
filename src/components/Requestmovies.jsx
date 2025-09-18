@@ -4,73 +4,73 @@ const movies = [
   {
     title: "Kimi no Na wa ",
     img: "/movies/your.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "https://driveseed.org/file/ec1THoR8TREEnUFQd5cv",
   },
   {
     title: "Tumbbad",
     img: "/movies/Tumbbad.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "https://driveleech.net/file/EaGILAKUCX94SWFybiD9",
   },
   {
     title: "Warm Bodies",
     img: "/movies/warm.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "https://driveseed.org/file/JG1YlhlQ6ss8pqlxdtOz",
   },
   {
     title: "A Thursday",
     img: "/movies/thursday.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "https://driveleech.net/file/q2hJomtAaqFxO3yLUh17",
   },
   {
     title: "Thar",
     img: "/movies/thar.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "https://driveleech.net/file/uBBzfshnBkXSOiMvemah",
   },
   {
     title: "Kingsman",
     img: "/movies/Kingsman.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "https://driveseed.org/file/9sCyMr9HJFR1WhY89RmC",
   },
   {
     title: "Happy New Year",
     img: "/movies/Happy New Year.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "https://driveleech.net/file/WKt3nrxB4hfqFfijeRys",
   },
   {
     title: "Shutter Island",
     img: "/movies/Shutter Island.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "https://driveseed.org/file/cSqDv1JNNfWHGwltF3pm",
   },
   {
     title: "Nosferatu",
     img: "/movies/Nosferatu.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "https://driveseed.org/file/fWLOPLNLy7GJnv8tYNwe",
   },
   {
     title: "Jawan",
     img: "/movies/Jawan.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "#",
   },
   {
     title: "Dune",
     img: "/movies/Dune.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "#",
   },
   {
     title: "How to Train Your Dragon",
     img: "/movies/How to Train Your Dragon.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "#",
   },
 
@@ -100,7 +100,7 @@ const Requestmovies = () => {
               </h3>
               <a
                 href={movie.link}
-                className="mt-auto px-4 py-2 bg-[#dad7d5] text-[#141c20] rounded text-center transition-transform duration-200 transform hover:scale-105 "
+                className="mt-auto px-4 py-2 bg-[#dad7d5] text-[#141c20] rounded text-center transition-transform duration-200 transform hover:scale-105 font-semibold"
               >
                 {movie.buttonText}
               </a>

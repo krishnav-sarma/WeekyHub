@@ -4,145 +4,145 @@ const movies = [
   {
     title: "Coolie",
     img: "/movies/coolie.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "https://driveleech.net/file/rJ9yJvamTNRj8VaxHbqo",
   },
   {
     title: "Detective Ujjwalan",
     img: "/movies/detective.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "https://driveleech.net/file/3GtMFAainA6lELnNdP57",
   },
   {
     title: "Inspector Zende",
     img: "/movies/zende.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "https://driveleech.net/file/K5dGNYFDemGGxdtkZPTv",
   },
   {
     title: "Maargan",
     img: "/movies/maargan.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "https://driveleech.net/file/wHvrfDnBivEAXzsWFUHP",
   },
   {
     title: "Maareesan",
     img: "/movies/maareesan.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "https://driveleech.net/file/Ovj10qcGuIoRm7Hsbgzq",
   },
   {
     title: "Saiyaara",
     img: "/movies/saiyaara.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "https://driveleech.net/file/GL88rcPnv0",
   },
   {
     title: "Nobody 2",
     img: "/movies/Nobody2.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "https://driveseed.org/file/M2Y57VWKnGSrz3yfJR14",
   },
   {
     title: "Locked",
     img: "/movies/locked.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "https://driveseed.org/file/AXa6vh18hUZPfBppWdUV",
   },
   {
     title: "Lilo and Stitch",
     img: "/movies/lilo.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "https://driveseed.org/file/80t5ovNfpOdjijGGz3RJ",
   },
   {
     title: "The Naked Gun",
     img: "/movies/The-Naked-Gun-2025-MoviesMod.caf.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "https://driveseed.org/file/pP0LQJCqbFHMAiO55c6j",
   },
   {
     title: "Weapons",
     img: "/movies/weapons.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "https://driveseed.org/file/GG8MstxrUNpAclG7gd3x",
   },
   {
     title: "777 Charlie",
     img: "/movies/777.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "https://driveleech.net/file/dRSM77xUIVSFrjKbgm7a",
   },
   {
     title: "A classic horror story",
     img: "/movies/A classic horror story.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "https://driveseed.org/file/XKtdD6DIkMXj2e2XqhSV",
   },
   {
     title: "Airlift",
     img: "/movies/Airlift.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "https://driveleech.net/file/O3ldfQ26ZD8JYnI1pKVr",
   },
   {
     title: "Badla",
     img: "/movies/badla.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "https://driveleech.net/file/LYOEduIIY6EZxFYtdAZ9",
   },
   {
     title: "The call",
     img: "/movies/call.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "https://driveseed.org/file/61Lc2I3no9u8sT2FBlzN",
   },
   {
     title: "Fight Club",
     img: "/movies/Fight Club.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "https://driveseed.org/file/mKJlvUdGupy1LThizo31",
   },
   {
     title: "Flow",
     img: "/movies/flow.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "https://driveseed.org/file/MgDPK1jKnCUgDkNEkpp9",
   },
   {
     title: "Forensic",
     img: "/movies/Forensic.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "https://driveleech.net/file/WkPLsxcBORNRBkDch2Bc",
   },
   {
     title: "Game Over",
     img: "/movies/game.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "https://driveleech.net/file/5P7I4ssGDosQZDRTU3qg",
   },
   {
     title: "Ghosted",
     img: "/movies/Ghosted.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "https://driveseed.org/file/kz7PkZaMf2JufG8I2ms3",
   },
   {
     title: "Hush",
     img: "/movies/hush.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "https://driveseed.org/file/LUmmnsQHa7Zxb38GFWWf",
   },
   {
     title: "Kill",
     img: "/movies/Kill.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "https://driveleech.net/file/Bv0awl0rAQ8p1cjo6seG",
   },
   {
     title: "Laapataa Ladies",
     img: "/movies/lapata.jpg",
-    buttonText: "Download",
+    buttonText: "Watch Now",
     link: "https://driveleech.net/file/y9V3T4RHnK3vvdRgm4lY",
   },
 ];
@@ -171,7 +171,7 @@ const MovieGrid = () => {
               </h3>
               <a
                 href={movie.link}
-                className="mt-auto px-4 py-2 bg-[#dad7d5] text-[#141c20] rounded text-center transition-transform duration-200 transform hover:scale-105 "
+                className="mt-auto px-4 py-2 bg-[#dad7d5] text-[#141c20] rounded text-center transition-transform duration-200 transform hover:scale-105 font-semibold "
               >
                 {movie.buttonText}
               </a>

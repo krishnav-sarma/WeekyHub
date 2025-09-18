@@ -25,8 +25,8 @@ const slides = [
   },
   {
     id: 4,
-    title: "Inspector Zende",
-    text: "The movie is inspired with true events however story dialogue and screenplay is average. I was expecting more. When you have such a great star cast you start expecting more. This movie is onetime watch and you can watch it with family and kids. After a point movie feels to be stretched without any reason.",
+    title: "Ballerina",
+    text: "An assassin trained in the traditions of the Ruska Roma organization sets out to seek revenge after her father's death.",
     img: "/slide/bg4.jpg",
     mobileImg: "/movies/zende.jpg",
   },
@@ -39,10 +39,10 @@ const slides = [
   },
   {
     id: 6,
-    title: "Weapons",
+    title: "How to Train Your Dragon",
     text: "From New Line Cinema and Zach Cregger, the wholly original mind behind Barbarian, comes a new horror/thriller: Weapons. When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance.",
     img: "/slide/bg6.jpg",
-    mobileImg: "/movies/weapons.jpg",
+    mobileImg: "/movies/How to Train Your Dragon.jpg",
   },
 ];
 
@@ -121,7 +121,7 @@ const Hero = () => {
               <h2 className="text-6xl sm:text-3xl md:text-5xl lg:text-6xl font-bold mb-3 md:mb-4 font-f2">
                 {slide.title}
               </h2>
-              <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-200 mb-4 md:mb-6 font-semibold ">
+              <p className="text-[16px] sm:text-base md:text-lg lg:text-xl text-gray-200 mb-4 md:mb-6 font-semibold ">
                 {slide.text}
               </p>
               {/* <button className="px-4 py-2 md:px-6 md:py-3 bg-white text-black rounded-lg shadow-lg hover:scale-105 transition-transform text-[15px] md:text-base font-f2 font-semibold">
