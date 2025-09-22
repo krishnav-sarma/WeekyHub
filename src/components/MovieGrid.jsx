@@ -184,3 +184,5 @@ const MovieGrid = () => {
 };
 
 export default MovieGrid;
+
+
