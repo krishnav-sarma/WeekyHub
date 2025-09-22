@@ -20,7 +20,7 @@ const slides = [
     id: 3,
     title: "Nosferatu",
     text: "Robert Eggers’ NOSFERATU is a gothic tale of obsession between a haunted young woman and the terrifying vampire infatuated with her, causing untold horror in its wake.",
-    img: "/slide/Nosferatu2.jpg",
+    img: "/slide/bg3.jpg",
     mobileImg: "/movies/Nosferatu.jpg",
   },
   {
@@ -114,7 +114,7 @@ const Hero = () => {
             />
 
             {/* Dark overlay */}
-            <div className="absolute inset-0 bg-black/35" />
+            <div className="absolute inset-0 bg-black/60" />
 
             {/* Text & Button */}
             <div className="absolute bottom-20 sm:bottom-20 ml-2 md:ml-10 text-left text-white max-w-[550px]">
