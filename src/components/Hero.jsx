@@ -40,7 +40,7 @@ const slides = [
   {
     id: 6,
     title: "How to Train Your Dragon",
-    text: "From New Line Cinema and Zach Cregger, the wholly original mind behind Barbarian, comes a new horror/thriller: Weapons. When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance.",
+    text: "On the rugged isle of Berk, where Vikings and dragons have been bitter enemies for generations, Hiccup stands apart. The inventive yet overlooked son of Chief Stoick the Vast (Gerard Butler), Hiccup defies centuries of tradition when he befriends Toothless, a feared Night Fury dragon. Their unlikely bond reveals the true nature of dragons, challenging the very foundations of Viking society",
     img: "/slide/bg6.jpg",
     mobileImg: "/movies/How to Train Your Dragon.jpg",
   },
